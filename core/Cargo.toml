@@ -1,0 +1,8 @@
+[package]
+name = "jc_core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+risc0-zkp = "3.0.2"
+serde = "1.0.228"
