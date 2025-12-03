@@ -5,7 +5,6 @@ use risc0_zkvm::{
 };
 
 fn verify_tree(input: &Input) {
-    let mut hasher = Impl::new();
 }
 
 fn main() {

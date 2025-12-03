@@ -1,11 +1,10 @@
-use risc0_zkvm::{digest::Digest};
+use risc0_zkvm::sha::{Digest};
 use serde::{Serialize, Deserialize};
 
 pub const DIM: usize = 20;
 
 #[derive(Serialize, Deserialize)]
 pub struct Input {
-    pub root: Digest,
     pub hashes: [Digest; DIM],
     pub directions: [u8; DIM],
     pub sk: Digest,
