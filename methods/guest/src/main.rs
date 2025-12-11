@@ -1,4 +1,4 @@
-use jc_core::{Commit, Input, DIM};
+use justcash_core::{Commit, Input, DIM};
 use risc0_zkvm::{
     guest::env,
     sha::{Impl, Sha256},

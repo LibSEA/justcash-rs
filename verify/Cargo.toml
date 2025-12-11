@@ -1,11 +1,11 @@
 [package]
-name = "host"
+name = "justcash_verify"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-methods = { path = "../methods" }
+justcash_methods = { path = "../methods" }
 risc0-zkvm = { version = "^3.0.3" }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-serde = "1.0"
-jc_core = { path = "../core" }
+justcash_core = { path = "../core" }
+thiserror = "2"

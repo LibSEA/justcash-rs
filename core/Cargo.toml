@@ -1,5 +1,5 @@
 [package]
-name = "jc_core"
+name = "justcash_core"
 version = "0.1.0"
 edition = "2024"
 

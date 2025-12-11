@@ -1,0 +1,11 @@
+[package]
+name = "justcash_prove"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+justcash_methods = { path = "../methods" }
+risc0-zkvm = { version = "^3.0.3" }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+justcash_core = { path = "../core" }
+
