@@ -11,7 +11,7 @@ pub enum VerifyError {
     InvalidCommit,
 }
 
-pub fn verify<T>(receipt: Receipt) -> Result<Commit, VerifyError> {
+pub fn verify(receipt: Receipt) -> Result<Commit, VerifyError> {
     receipt
         .verify(JUSTCASH_ID)
         .map_err(|_| VerifyError::VerficationFailed)?;
