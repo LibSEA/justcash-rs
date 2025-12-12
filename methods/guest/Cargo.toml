@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 risc0-zkvm = { version = "^3.0.3", default-features = false, features = ['std', 'disable-dev-mode'] }
-justcash_core = { path = "../../core" }
+justcash_core = { path = "../../core", version = "0.1.0"  }
