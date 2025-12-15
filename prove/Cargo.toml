@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-justcash_methods = { path = "../methods", version = "0.1.0"  }
 risc0-zkvm = { version = "^3.0.3", features = ['disable-dev-mode'] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 justcash_core = { path = "../core", version = "0.1.0" }

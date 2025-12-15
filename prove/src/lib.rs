@@ -1,7 +1,8 @@
 pub use justcash_core::Input;
-use justcash_methods::JUSTCASH_ELF;
 pub use risc0_zkvm::Receipt;
 use risc0_zkvm::{default_prover, ExecutorEnv};
+
+const JUSTCASH_ELF: &[u8] = include_bytes!("./justcash.bin");
 
 pub fn init() {
     tracing_subscriber::fmt()
@@ -20,6 +21,5 @@ pub fn prove(input: Input) -> Receipt {
 
     let prove_info = prover.prove(env, JUSTCASH_ELF).unwrap();
 
-    // TODO: prover.compress?
     prove_info.receipt
 }
