@@ -2,6 +2,8 @@
 name = "justcash_verify"
 version = "0.1.0"
 edition = "2024"
+description = "library to verify a justcash proof of bill ownership"
+license = "AGPL-3.0-only"
 
 [dependencies]
 risc0-zkvm = { version = "^3.0.3", features = ["disable-dev-mode"]}
