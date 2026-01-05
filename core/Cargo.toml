@@ -1,6 +1,6 @@
 [package]
 name = "justcash_core"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "core types for justcash crate"
 license = "AGPL-3.0-only"

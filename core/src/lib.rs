@@ -1,5 +1,5 @@
-use risc0_zkvm::sha::{Digest};
-use serde::{Serialize, Deserialize};
+pub use risc0_zkvm::sha::Digest;
+use serde::{Deserialize, Serialize};
 
 pub const DIM: usize = 20;
 
