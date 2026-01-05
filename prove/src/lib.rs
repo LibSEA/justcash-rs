@@ -1,4 +1,4 @@
-pub use justcash_core::Input;
+pub use justcash_core::{Commit, Digest, Input, DIM};
 pub use risc0_zkvm::Receipt;
 use risc0_zkvm::{default_prover, ExecutorEnv};
 
