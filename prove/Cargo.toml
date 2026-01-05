@@ -1,6 +1,6 @@
 [package]
 name = "justcash_prove"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "library to create a justcash proof of bill ownership"
 license = "AGPL-3.0-only"
@@ -9,4 +9,5 @@ license = "AGPL-3.0-only"
 risc0-zkvm = { version = "^3.0.3", features = ['disable-dev-mode'] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 justcash_core = { path = "../core", version = "0.1.1" }
+thiserror = "2.0.17"
 
